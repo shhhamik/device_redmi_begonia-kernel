@@ -1,4 +1,4 @@
-DEVICE_KERNEL_PATH := device/xiaomi/begonia-kernel
+DEVICE_KERNEL_PATH := device/redmi/begonia-kernel
 
 # DTB
 PRODUCT_COPY_FILES += \

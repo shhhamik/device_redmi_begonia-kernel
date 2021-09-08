@@ -1,4 +1,4 @@
-DEVICE_KERNEL_PATH := device/xiaomi/begonia-kernel
+DEVICE_KERNEL_PATH := device/redmi/begonia-kernel
 
 # Kernel
 BOARD_KERNEL_CMDLINE := bootopt=64S3,32N2,64N2
@@ -23,7 +23,7 @@ BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 
 BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_KERNEL_PATH)/dtbo.img
 
-TARGET_KERNEL_SOURCE := kernel/xiaomi/begonia
+TARGET_KERNEL_SOURCE := kernel/redmi/begonia
 TARGET_KERNEL_CONFIG := begonia_user_defconfig
 
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset $(BOARD_RAMDISK_OFFSET)
